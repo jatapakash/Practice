@@ -7,7 +7,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelReader {
     public static void main(String[] args) {
         try {
-            FileInputStream excelFile = new FileInputStream(new File("your_excel_file.xlsx"));
+            FileInputStream excelFile = new FileInputStream(new File("briq.xlsx"));
             Workbook workbook = new XSSFWorkbook(excelFile);
 
             Sheet sheet = workbook.getSheetAt(0);
